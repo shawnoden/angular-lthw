@@ -39,8 +39,6 @@ simple JavaScript expressions.
 
 1. Add variables `firstName` and `lastName` variables to the scope and output
 the first name and last name together using a string contatenation expression.
-2. Add some expressions that use some JavaScript `Math` functions,
-such as `Math.sqrt()`
 
 ---
 
