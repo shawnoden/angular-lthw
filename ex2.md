@@ -43,9 +43,9 @@ application.
 
 ## Study Drills
 
-1. Add a `person` object to `$scope` that has properties `firstName` and
+1. Add a `person` object to `$rootScope` that has properties `firstName` and
 `lastName` and display those on the screen.
-2. Add a `colours` array to `$scope` that contains the names of a few colours
+2. Add a `colours` array to `$rootScope` that contains the names of a few colours
 and display that array on the screen (no looping, just print it immediately).
 3. Add another run block that sets some variables and display those as well.
 
