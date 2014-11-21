@@ -8,6 +8,7 @@ layout: main
 * [Exercise 2: Introducing Modules and Scope](ex2.html)
 * [Exercise 3: Introducing Controllers](ex3.html)
 * [Exercise 4: Nested Controllers](ex4.html)
+* [Exercise 5: Introducing Expressions](ex5.html)
 
 
 

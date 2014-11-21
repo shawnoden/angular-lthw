@@ -20,17 +20,15 @@ Create a new file `index.html` with the following content
 
 ## What You Should See
 
-You should see a text field asking for your name plus a heading 'Gudday'.
+You should see a text field asking for your name plus a heading 'Hello'.
 
 If you enter some characters into the text field then the heading should
 immediately update with the text you enter.
 
-## Terminology
+## What's Going On
 
 You'll see the program has `ng-app` and `ng-model` attributes. Anything
 starting with `ng-` in Angular is called a **directive**.
-
-## What's Going On
 
 The `ng-app` directive on the `<html>` tag designates the root element of an
 application and is usually placed on the `<html>` or `<body>` tag.
