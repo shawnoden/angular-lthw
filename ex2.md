@@ -22,19 +22,24 @@ it for now and we'll discuss it later.
 
 ## What You Should See
 
-You should see a heading 'Hello Angular!' and the current date and time
-on the screen.
+You should see a heading 'Hello Angular!' on the screen.
 
 ## What's Going On
 
-In this exercise we've given our application the name `controllerExample`.
+In the HTML we've given our application the name `app`.
 
-We've also created a `<div>` and attached it to a **controller**.
+In the JavaScript we've created an Angular **module** with the same name.
 
-Controllers are used to set up the **Angular Scope**. That's the `$scope`
-variable you see in the code. Anything you put into `$scope` becomes accessible
-within the corresponding controller in the HTML, in this example it means
-the `name` variable and the `getTime()` function. 
+We pass a function to the app's `run()` method. This function is called a
+**run block**.
+
+Run blocks are used to kick start an application and you can have as many of
+them as you need. 
+
+Run blocks are passed a global **scope** object named `$rootScope`.
+Anything you place in the global scope becomes available for use in your
+application.
+
 
 ## Study Drills
 
@@ -42,6 +47,7 @@ the `name` variable and the `getTime()` function.
 `lastName` and display those on the screen.
 2. Add a `colours` array to `$scope` that contains the names of a few colours
 and display that array on the screen (no looping, just print it immediately).
+3. Add another run block that sets some variables and display those as well.
 
 ---
 
