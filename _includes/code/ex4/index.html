@@ -8,9 +8,14 @@
 </head>
 <body>
 
-<div ng-controller="PageController">
-  <h1>Hello {{ name }}!</h1>
-  <p>The time is {{ getTime() }}</p>
+<div ng-controller="ParentController">
+
+  <h1>I'm {{ parentName }}</h1>
+
+  <div ng-controller="ChildController">
+    <h2>I'm {{ childName }} and my parent is {{ parentName }}</h2>
+  </div>
+
 </div>
 
 </body>
