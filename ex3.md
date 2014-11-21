@@ -5,45 +5,47 @@ layout: main
 
 # {{ page.title }}
 
-Create a new file `ex2/index.html` with the following content
+Create a new file `index.html` with the following content:
 
 {% highlight html %}
-{% include code/ex2/index.html %}
+{% include code/ex3/index.html %}
 {% endhighlight %}
 
-and another new file `ex2/app.js` with the following content
+Create another new file `app.js` with the following content:
 
 {% highlight javascript %}
-{% include code/ex2/app.js %}
+{% include code/ex3/app.js %}
 {% endhighlight %}
-
-Don't worry about the few lines at the top of the JavaScript file, just copy
-it for now and we'll discuss it later.
 
 ## What You Should See
 
-You should see a heading 'Hello Angular!' and the current date and time
+You should see a heading 'Hello Controller!' and the current date and time
 on the screen.
 
 ## What's Going On
 
-In this exercise we've given our application the name `controllerExample`.
+In this exercise we've created a `<div>` and attached it to a **controller**
+named `HelloController`.
 
-We've also created a `<div>` and attached it to a **controller**.
+Controllers are used to set up a new **Scope** object. You can see the new
+`$scope` variable in the JavaScript code.
 
-Controllers are used to set up the **Angular Scope**. That's the `$scope`
-variable you see in the code. Anything you put into `$scope` becomes accessible
-within the corresponding controller in the HTML, in this example it means
-the `name` variable and the `getTime()` function. 
+Anything you put into `$scope` becomes accessible within the corresponding
+container in the HTML. In this exercise it means the `name` variable and
+the `getTime()` function. 
+
+You can call the `app.controller()` function as many times as you need to add
+extra controllers.
 
 ## Study Drills
 
-1. Add a `person` object to `$scope` that has properties `firstName` and
-`lastName` and display those on the screen.
-2. Add a `colours` array to `$scope` that contains the names of a few colours
-and display that array on the screen (no looping, just print it immediately).
-
+1. Add a second controller to this application and display some variables.
+2. What happens when you try to access variables from the first controller
+within the second controller HTML block?
+3. Add a **run block** to your application that sets some variables.
+What happens when you try access those variables from inside your controllers?
+  
 ---
 
-[Previous Exercise](ex1.html) / [Next Exercise](ex3.html)
+[Previous Exercise](ex2.html) / [Next Exercise](ex4.html)
 
