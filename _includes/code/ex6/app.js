@@ -11,7 +11,7 @@ function FilterController($scope) {
   $scope.now = new Date();
   $scope.pet = { name:'Fluffy', type:'cat' };
   $scope.weekday = 'Monday';
-  $scope.slug = 'page-123';
+  $scope.pageCode = 'page-123';
   
 }
 {% endraw %}

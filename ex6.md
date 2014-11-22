@@ -31,12 +31,13 @@ $12,345.68
 Nov 22, 2014 1:44:01 PM
 { "name": "Fluffy", "type": "cat" }
 Mon
+MON
 123
 </pre>
 
 ## What's Going On
 
-When displaying a value we can apply a filter using the `|` character.
+When displaying a value we can apply a filter using the pipe `|` character.
 
 Arguments are passed to filters separated by a colon `:`, so one argument might
 be `:100` and two arguments might be `:100:'new'`.
@@ -55,6 +56,15 @@ date format to use.
 It's argument is the number of characters to return. If a negative number is
 provided it returns characters from the end of the string.
 
+You'll notice that you can apply **multiple filters** by separating each
+one with a pipe `|` character:
+
+{% highlight html %}
+{% raw %}
+<p>{{ weekday | limitTo:3 | uppercase }}</p>
+{% endraw %}
+{% endhighlight %}
+
 
 ## Study Drills
 
@@ -64,7 +74,7 @@ the `now` variable like this `Nov 22, 2014`
 2. Create a variable with a `null` value and format it as JSON
 3. Create a variable with an `undefined` value and format it as JSON
 4. Create a variable with a date and format it as JSON
-5. Format an integer to have five decimal places.
+5. Format an integer to have five decimal places. What happens?
  
 
 ---
