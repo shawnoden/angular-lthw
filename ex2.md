@@ -5,16 +5,16 @@ layout: main
 
 # {{ page.title }}
 
-Create a file `index.html` with the following content:
-
-{% highlight html %}
-{% include code/ex2/index.html %}
-{% endhighlight %}
-
-Create another file `app.js` with the following content:
+Create a file `app.js` with the following content:
 
 {% highlight javascript %}
 {% include code/ex2/app.js %}
+{% endhighlight %}
+
+Create a new file `index.html` with the following content:
+
+{% highlight html %}
+{% include code/ex2/index.html %}
 {% endhighlight %}
 
 Don't worry about the few lines at the top of the JavaScript file, just copy

@@ -5,18 +5,17 @@ layout: main
 
 # {{ page.title }}
 
-Create a new file `index.html` with the following content:
-
-{% highlight html %}
-{% include code/ex5/index.html %}
-{% endhighlight %}
-
-Create another new file `app.js` with the following content:
+Create a new file `app.js` with the following content:
 
 {% highlight javascript %}
 {% include code/ex5/app.js %}
 {% endhighlight %}
 
+Create a new file `index.html` with the following content:
+
+{% highlight html %}
+{% include code/ex5/index.html %}
+{% endhighlight %}
 
 ## What You Should See
 
