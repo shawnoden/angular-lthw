@@ -43,8 +43,9 @@ extra controllers.
 2. What happens when you try to display variables from the first controller
 within the second controller HTML block?
 3. Add a **run block** to your application that sets some variables.
-What happens when you try display those variables from inside your controllers?
-  
+What happens when you try display those variables from inside your controller
+HTML blocks?
+
 ---
 
 [Previous Exercise](ex2.html) / [Next Exercise](ex4.html)
