@@ -33,9 +33,8 @@ block.
 ## Study Drills
 
 1. Add a new variable `age` to both the parent and child controller and
-display it in both the parent and child HTML blocks. What happens?
-2. What happens when you try to display a child scope variable in a parent
-HTML block?
+display it in both the parent and child HTML div. What happens?
+2. Add `childName` variable to the parent HTML div. What happens?
 
 ---
 
