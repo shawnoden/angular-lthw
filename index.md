@@ -10,4 +10,5 @@ layout: main
 * [Exercise 4: Nested Controllers](ex4.html)
 * [Exercise 5: Introducing Expressions](ex5.html)
 * [Exercise 6: Introducing Filters](ex6.html)
+* [Exercise 7: Using Filters Inside Controllers](ex7.html)
 
