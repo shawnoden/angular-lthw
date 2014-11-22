@@ -1,0 +1,29 @@
+{% raw %}
+<!doctype html>
+<html ng-app="app">
+<head>
+  <meta charset="utf-8">
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
+  <script src="app.js"></script>
+</head>
+<body>
+
+<div ng-controller="FilterController">
+
+  <p>
+    Blue Colours: {{ blueColours | json }}
+  </p>
+
+  <p>
+    Tech People: {{ techPeople | json }}
+  </p>
+
+  <p>
+    Person by Id: {{ personById | json }}
+  </p>
+
+</div>
+
+</body>
+</html>
+{% endraw %}

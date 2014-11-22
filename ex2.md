@@ -28,7 +28,15 @@ You should see a heading 'Hello Angular!' on the screen.
 
 In the HTML we've given our application the name `app`.
 
+{% highlight html %}
+<html ng-app="app">
+{% endhighlight %}
+
 In the JavaScript we've created an Angular **module** with the same name.
+
+{% highlight javascript %}
+var app = angular.module('app', []);
+{% endhighlight %}
 
 We pass a function to the app's `run()` method. This function is called a
 **run block**.

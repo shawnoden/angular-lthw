@@ -11,4 +11,5 @@ layout: main
 * [Exercise 5: Introducing Expressions](ex5.html)
 * [Exercise 6: Introducing Filters](ex6.html)
 * [Exercise 7: Using Filters Inside Controllers](ex7.html)
+* [Exercise 8: Filtering Arrays](ex8.html)
 

@@ -20,7 +20,7 @@ Create another new file `app.js` with the following content:
 
 ## What You Should See
 
-You should the following output on the screen:
+You should the following output:
 
 <pre>
 ANGULAR

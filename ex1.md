@@ -41,6 +41,15 @@ of the input element.
 1. Change the program so it asks for and displays a first name and last name
 2. Find out what happens if you use a variable name that doesn't exist, like `{% raw  %}{{ blah }}{% endraw %}`.
 
+<div class="alert alert-info">
+  <span class="label label-info">Tip</span>
+  Use <b>camel case</b> for your model names, such as <b>firstName</b>
+  and <b>lastName</b>. In particular avoid using hyphenated names
+  such as <b>first-name</b> and <b>last-name</b> (which is a common convention
+  for class and id values) as this will cause problems when using them inside
+  {% raw  %}{{{% endraw  %} and {% raw  %}}}{% endraw  %}.
+</div>
+
 ---
 
 [Previous Exercise](ex0.html) / [Next Exercise](ex2.html)
