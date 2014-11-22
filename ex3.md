@@ -40,10 +40,10 @@ extra controllers.
 ## Study Drills
 
 1. Add a second controller to this application and display some variables.
-2. What happens when you try to access variables from the first controller
+2. What happens when you try to display variables from the first controller
 within the second controller HTML block?
 3. Add a **run block** to your application that sets some variables.
-What happens when you try access those variables from inside your controllers?
+What happens when you try display those variables from inside your controllers?
   
 ---
 
