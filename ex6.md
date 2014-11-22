@@ -23,34 +23,50 @@ Create another new file `app.js` with the following content:
 You should the following output on the screen:
 
 <pre>
-ANGULAR HAS FILTERS
-angular has filters
+ANGULAR
+angular
 3.14
-$3.14
-11/22/14 8:06 AM
-Nov 22, 2014 8:06:27 AM
+12,345.679
+$12,345.68
+11/22/14 1:44 PM
+Nov 22, 2014 1:44:01 PM
+{ "name": "Fluffy", "type": "cat" }
+Mon
+123
 </pre>
 
 ## What's Going On
 
 When displaying a value we can apply a filter using the `|` character.
 
-Angular has several built in filters such as the exercise here.
+Arguments are passed to filters separated by a colon `:`, so one argument might
+be `:100` and two arguments might be `:100:'new'`.
 
-Arguments are passed to filters using a colon `:` followed by the argument.
-Multiple arguments can be passed separated by colons.
+Angular has several built in filters.
 
-The `number` filter has one integer argument that indicates the number of
-decimal places to display.
-
-The `date` filter has one string argument that indicates the date format to use.
+* **uppercase** formats a string as upper case.
+* **lowercase** formats a string as lower case.
+* **number** formats a number. It takes an optional argument that indicates the
+number of decimal places to display.
+* **currency** formats a number in the local currency format.
+* **date** formats a date object. It has one string argument that describes the
+date format to use.
+* **json** formats a variable as a JSON string (useful for debugging).
+* **limitTo** returns a beginning or ending substring of a string.
+It's argument is the number of characters to return. If a negative number is
+provided it returns characters from the end of the string.
 
 
 ## Study Drills
 
-1. This exercise only shows some of the possible date filters. Look up the
-complete set of date filters and use a date formatting filters and format
-the `now` variable like this `Nov 22, 2014`; 
+1. This exercise only shows two possible date filters. Look up the
+complete set of date filters and use date formatting filters and format
+the `now` variable like this `Nov 22, 2014`
+2. Create a variable with a `null` value and format it as JSON
+3. Create a variable with an `undefined` value and format it as JSON
+4. Create a variable with a date and format it as JSON
+5. Format an integer to have five decimal places.
+ 
 
 ---
 

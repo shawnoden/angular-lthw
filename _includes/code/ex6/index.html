@@ -10,12 +10,16 @@
 
 <div ng-controller="FilterController">
 
-  <p>{{ name + ' has Filters' | uppercase }}</p>
-  <p>{{ name + ' has Filters' | lowercase }}</p>
+  <p>{{ name | uppercase }}</p>
+  <p>{{ name | lowercase }}</p>
   <p>{{ PI | number:2 }}</p>
-  <p>{{ PI | currency }}</p>
+  <p>{{ amount | number }}</p>
+  <p>{{ amount | currency }}</p>
   <p>{{ now | date:'short' }}</p>
   <p>{{ now | date:'medium' }}</p>
+  <p>{{ pet | json }}</p>
+  <p>{{ weekday | limitTo:3 }}</p>
+  <p>{{ slug | limitTo:-3 }}</p>
 
 </div>
 
