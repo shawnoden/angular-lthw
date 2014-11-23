@@ -1,4 +1,3 @@
-{% raw %}
 var app = angular.module('app', []);
 
 app.controller('HelloController', ['$scope', HelloController]);
@@ -13,4 +12,3 @@ function HelloController($scope) {
   
 }
 
-{% endraw %}

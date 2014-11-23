@@ -1,0 +1,19 @@
+{
+  "name": "angular-lthw",
+  "version": "0.0.0",
+  "description": "Angular LTHW",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kevanstannard/angular-lthw.git"
+  },
+  "author": "Kevan Stannard",
+  "bugs": {
+    "url": "https://github.com/kevanstannard/angular-lthw/issues"
+  },
+  "homepage": "https://github.com/kevanstannard/angular-lthw",
+  "dependencies": {
+    "recursive-readdir": "~1.2.0",
+    "mkdirp": "~0.5.0",
+    "rimraf": "~2.2.8"
+  }
+}
