@@ -21,7 +21,7 @@ function FilterController($scope, $filter) {
   $scope.mediumDate = $filter('date')(now, 'medium'); 
   $scope.petJSON = $filter('json')(pet);
   $scope.weekdayAbbr = $filter('limitTo')(weekday, 3);
-  $scope.weekdayAbbrUpper = $filter('upppercase')($scope.weekdayAbbr);
+  $scope.weekdayAbbrUpper = $filter('uppercase')($scope.weekdayAbbr);
   $scope.pageNumber = $filter('limitTo')(pageCode, -3);
   
 }
