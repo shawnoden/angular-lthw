@@ -3,14 +3,8 @@ title: The Setup
 layout: main
 ---
 
-# {{ page.title }}
-
-* TODO: Set up web server
-* TODO: Install Eclipse (maybe with plugins?)
+{% include book/the-setup.md %}
 
 ---
 
 [Next Exercise](ex1.html)
-
-
-

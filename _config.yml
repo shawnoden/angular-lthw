@@ -1,0 +1,1 @@
+exclude: [book, code, node_modules, build-code.js, build-pages.js, Gemfile, Gemfile.lock, package,json, README.md, start]
