@@ -2,6 +2,8 @@
 <html ng-app="app">
 <head>
   <meta charset="utf-8">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.3/angular.min.js"></script>
+  <script src="app.js"></script>
 </head>
 <body>
 
@@ -13,11 +15,9 @@
   <p>Last is {{ last }}</p>
   <p>Difference is {{ last - first }}</p>
   <p>First and last are {{ last === first ? 'equal' : 'not equal' }}</p>
+  <p>I like {{ colours[1] }}</p>
 
 </div>
-
-<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
-<script src="app.js"></script>
 
 </body>
 </html>

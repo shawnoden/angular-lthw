@@ -32,7 +32,9 @@ MON
 
 ## What's Going On
 
-When displaying a value we can apply a filter using the pipe `|` character.
+A filter is used to formats an expression before displaying it to the user. 
+
+You can apply a filter by using the pipe `|` character.
 
 Arguments are passed to filters separated by a colon `:`, so one argument might
 be `:100` and two arguments might be `:100:'new'`.

@@ -59,4 +59,7 @@ $location is the replacement for the global location scope.
 
 ## Study Drills
 
+1. Inject `$window` into your controller and use it's `alert()` method.
+
+
 

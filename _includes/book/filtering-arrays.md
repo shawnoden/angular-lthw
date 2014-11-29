@@ -26,8 +26,8 @@ Person by Id: [ { "id": 6, "role": "management", "name": "The Captain" } ]
 
 ## What's Going On
 
-Angular provides a special kind of filter called **filter**. This is used to
-get a subset of elements out of an array.
+Angular provides a special kind of filter called **filterFilter**.
+This is used to get a subset of elements out of an array.
 
 In this exercise we use the filter inside a controller, but it could also be
 used within the HTML, similar to other filters.

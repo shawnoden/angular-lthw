@@ -11,6 +11,7 @@ var pages = [
   {id:'controllers-and-binding', title:'Controllers and Binding'},
   {id:'introducing-services', title:'Introducing Services'},
   {id:'introducing-dependency-injection', title:'Introducing Dependency Injection'},
+  {id:'services-with-dependencies', title:'Services With Dependencies'},
   {id:'introducing-filters', title:'Introducing Filters'},
   {id:'using-filters-inside-controllers', title:'Using Filters Inside Controllers'},
   {id:'filtering-arrays', title:'Filtering Arrays'}

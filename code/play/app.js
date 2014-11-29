@@ -1,41 +1,28 @@
 var app = angular.module('app',[]);
 
-app.factory('aService', function(){
-  
-  var service = {
-      getName: function() { return 'A'; } 
-  };
-  return service;
-  
-});
+app.factory('serviceA', ['serviceB', function(){
 
-app.factory('bService', function(){
+  return {};
   
-  var service = {
-      getName: function() { return 'B'; } 
-  };
-  return service;
-  
-});
+}]);
 
-app.factory('cService', function() {
-  
-  var service = {
-      getName: function() { return 'C'; } 
-  };
-  return service;
-  
-});
+app.factory('serviceB', ['serviceC', function(){
 
-app.controller('DependencyController', ['$scope', '$window',
-  function($scope, $window){
+  return {};
+  
+}]);
+
+app.factory('serviceC', ['serviceA', function(){
+
+  return {};
+  
+}]);
+
+app.controller('DependencyController', ['$scope', 'serviceA',
+  function($scope, serviceA){
   
     $scope.getNames = function() {
-
-      $window.alert('Hello');
-      
-      return '';
-      
+      return 'Hello';
     };
   
   }

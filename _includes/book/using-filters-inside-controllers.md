@@ -36,27 +36,8 @@ rather than in the HTML.
 
 These are the same filters we used in the previous exercise.
 
-## A note about $scope and $filter
-
-Something new that we have in this exercise is the following line:
-
-{% highlight javascript %}
-app.controller('FilterController', ['$scope', '$filter', FilterController]);
-{% endhighlight %}
-
-You will see the `'$scope'` and `'$filter'` arguments in the array.
-
-These are built-in to Angular and available for you to use.
-
-This syntax asks Angular to provide a `$scope` object and a `$filter`
-object as arguments to the FilterController:
-
-{% highlight javascript %}
-function FilterController($scope, $filter) {
-{% endhighlight %}
-
-This method of requesting things is called **Dependency Injection** which 
-we'll discuss more in later exercises.
+Filters can be injected as dependencies into a controller using
+`<filterName>Filter`.
 
 ## Study Drills
 
