@@ -4,7 +4,11 @@ app.controller('HelloController', ['$scope', HelloController]);
 
 function HelloController($scope) {
   
-  $scope.name = 'Controller';
+  $scope.greeting = 'Hello';
+  
+  $scope.user = {
+      name: 'Controller'
+  };
   
   $scope.getTime = function() {
     return new Date();

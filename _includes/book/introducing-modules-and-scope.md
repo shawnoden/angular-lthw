@@ -12,9 +12,6 @@ Create a new file `index.html` with the following content:
 {% include code/introducing-modules-and-scope/index.html %}
 {% endhighlight %}
 
-Don't worry about the few lines at the top of the JavaScript file, just copy
-it for now and we'll discuss it later.
-
 ## What You Should See
 
 You should see a heading 'Hello Angular!' on the screen.

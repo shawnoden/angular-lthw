@@ -15,5 +15,8 @@
     "recursive-readdir": "~1.2.0",
     "mkdirp": "~0.5.0",
     "rimraf": "~2.2.8"
+  },
+  "scripts": {
+   "start": "bundle exec jekyll serve"
   }
 }

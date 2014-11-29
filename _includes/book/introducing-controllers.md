@@ -29,8 +29,9 @@ Controllers are used to set up a new **Scope** object. You can see the new
 `$scope` variable in the JavaScript code.
 
 Anything you put into `$scope` becomes available to use within the
-corresponding container in the HTML. In this exercise it means the `name` 
-variable and the `getTime()` function are available for use. 
+corresponding container in the HTML. In this exercise it means the
+`greeting` and `user` variables and the `getTime()` function are available
+for use. 
 
 You can set up as many controllers as you need using the `app.controller()` 
 method.

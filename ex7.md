@@ -1,9 +1,9 @@
 ---
-title: Using Filters Inside Controllers
+title: Controllers and Binding
 layout: main
 ---
 
-{% include book/using-filters-inside-controllers.md %}
+{% include book/controllers-and-binding.md %}
 
 ---
 

@@ -5,3 +5,4 @@ Gemfile.lock
 _site
 node_modules
 mongoose-lua-sqlite-ssl-static-x86_64-5.2
+npm-debug.log

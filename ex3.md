@@ -1,9 +1,9 @@
 ---
-title: Introducing Controllers
+title: Introducing Modules and Scopes
 layout: main
 ---
 
-{% include book/introducing-controllers.md %}
+{% include book/introducing-modules-and-scope.md %}
 
 ---
 

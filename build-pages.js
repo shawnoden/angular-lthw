@@ -3,10 +3,14 @@ var fs = require('fs');
 var pages = [
   {id:'the-setup', title:'The Setup'},
   {id:'introducing-binding', title:'Introducing Binding'},
+  {id:'binding-and-the-dom', title:'Binding and the DOM'},
   {id:'introducing-modules-and-scope', title:'Introducing Modules and Scopes'},
   {id:'introducing-controllers', title:'Introducing Controllers'},
   {id:'nested-controllers', title:'Nested Controllers'},
   {id:'introducing-expressions', title:'Introducing Expressions'},
+  {id:'controllers-and-binding', title:'Controllers and Binding'},
+  {id:'introducing-services', title:'Introducing Services'},
+  {id:'introducing-dependency-injection', title:'Introducing Dependency Injection'},
   {id:'introducing-filters', title:'Introducing Filters'},
   {id:'using-filters-inside-controllers', title:'Using Filters Inside Controllers'},
   {id:'filtering-arrays', title:'Filtering Arrays'}

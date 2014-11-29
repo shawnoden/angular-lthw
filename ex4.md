@@ -1,9 +1,9 @@
 ---
-title: Nested Controllers
+title: Introducing Controllers
 layout: main
 ---
 
-{% include book/nested-controllers.md %}
+{% include book/introducing-controllers.md %}
 
 ---
 

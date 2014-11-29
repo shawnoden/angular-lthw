@@ -1,9 +1,9 @@
 ---
-title: Introducing Modules and Scopes
+title: Binding and the DOM
 layout: main
 ---
 
-{% include book/introducing-modules-and-scope.md %}
+{% include book/binding-and-the-dom.md %}
 
 ---
 

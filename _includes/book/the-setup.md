@@ -9,7 +9,8 @@ web server.
 
 ### http-server
 
-The simplest web server to run is http-server.
+The simplest web server to run is
+[http-server](https://github.com/nodeapps/http-server).
 
 {% highlight text %}
 http-server

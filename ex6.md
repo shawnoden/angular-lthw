@@ -1,9 +1,9 @@
 ---
-title: Introducing Filters
+title: Introducing Expressions
 layout: main
 ---
 
-{% include book/introducing-filters.md %}
+{% include book/introducing-expressions.md %}
 
 ---
 
