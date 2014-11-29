@@ -1,10 +1,10 @@
 describe('PasswordController', function() {
-  beforeEach(module('app'));
-
+  
   var $controller;
 
+  beforeEach(module('app'));
+
   beforeEach(inject(function(_$controller_){
-    // The injector unwraps the underscores (_) from around the parameter names when matching
     $controller = _$controller_;
   }));
 
@@ -17,4 +17,6 @@ describe('PasswordController', function() {
       expect($scope.strength).toEqual('strong');
     });
   });
+  
+  
 });

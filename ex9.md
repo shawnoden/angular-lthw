@@ -1,9 +1,9 @@
 ---
-title: Introducing Dependency Injection
+title: Introducing Services
 layout: main
 ---
 
-{% include book/introducing-dependency-injection.md %}
+{% include book/introducing-services.md %}
 
 ---
 

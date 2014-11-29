@@ -1,6 +1,6 @@
 var app = angular.module('app',[]);
 
-app.factory('userService', function(){
+app.factory('userService', [function(){
   
   var user = {
     id: 100,
@@ -15,13 +15,15 @@ app.factory('userService', function(){
   
   return userService;
   
-});
-
-app.controller('UserController', ['$scope', 'userService', function($scope, userService){
-  
-  $scope.getUserName = function(a, b) {
-    var user = userService.getCurrentUser();
-    return user.name;
-  };
-  
 }]);
+
+app.controller('UserController', ['$scope', 'userService',
+  function($scope, userService){
+  
+    $scope.getUserName = function(a, b) {
+      var user = userService.getCurrentUser();
+      return user.name;
+    };
+  
+  }
+]);

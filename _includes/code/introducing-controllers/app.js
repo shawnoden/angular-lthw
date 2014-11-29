@@ -1,9 +1,7 @@
 {% raw %}
 var app = angular.module('app', []);
 
-app.controller('HelloController', ['$scope', HelloController]);
-
-function HelloController($scope) {
+app.controller('HelloController', ['$scope', function ($scope) {
   
   $scope.greeting = 'Hello';
   
@@ -15,6 +13,8 @@ function HelloController($scope) {
     return new Date();
   };
   
-}
+}]);
+
+
 
 {% endraw %}

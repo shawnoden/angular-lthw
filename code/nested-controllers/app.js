@@ -1,16 +1,15 @@
 var app = angular.module('app', []);
 
-app.controller('ParentController', ['$scope', ParentController]);
-app.controller('ChildController', ['$scope', ChildController]);
-
-function ParentController($scope) {
+app.controller('ParentController', ['$scope', function($scope) {
   
   $scope.parentName = 'Bigger';
   
-}
+}]);
 
-function ChildController($scope) {
+
+app.controller('ChildController', ['$scope', function($scope) {
   
   $scope.childName = 'Smaller';
   
-}
+}]);
+

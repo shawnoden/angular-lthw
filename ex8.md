@@ -1,9 +1,9 @@
 ---
-title: Introducing Services
+title: More Controllers and Binding
 layout: main
 ---
 
-{% include book/introducing-services.md %}
+{% include book/more-controllers-and-binding.md %}
 
 ---
 

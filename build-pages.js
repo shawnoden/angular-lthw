@@ -9,6 +9,7 @@ var pages = [
   {id:'nested-controllers', title:'Nested Controllers'},
   {id:'introducing-expressions', title:'Introducing Expressions'},
   {id:'controllers-and-binding', title:'Controllers and Binding'},
+  {id:'more-controllers-and-binding', title:'More Controllers and Binding'},
   {id:'introducing-services', title:'Introducing Services'},
   {id:'introducing-dependency-injection', title:'Introducing Dependency Injection'},
   {id:'services-with-dependencies', title:'Services With Dependencies'},

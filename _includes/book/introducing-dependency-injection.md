@@ -19,7 +19,7 @@ You should see a heading 'A, B, C'.
 ## What's Going On
 
 In this example we've created three services named `aService`, `bService`
-and `cService'.
+and `cService`.
 
 We've also created a controller named `DependencyController`.
 

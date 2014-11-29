@@ -12,17 +12,19 @@ app.factory('userService', [function(){
   
 }]);
 
-app.factory('profileService', ['userService', function(userService){
+app.factory('profileService', ['userService',
+  function(userService){
   
-  var service = {
-    getTitle: function() {
-      return userService.getName() + ' the ' + userService.getRole(); 
-    } 
-  };
+    var service = {
+      getTitle: function() {
+        return userService.getName() + ' the ' + userService.getRole(); 
+      } 
+    };
   
-  return service;
-  
-}]);
+    return service;
+    
+  }
+]);
 
 app.controller('ServiceDependencyController', ['$scope', 'profileService',
   function($scope, profileService){

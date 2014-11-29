@@ -1,9 +1,7 @@
 {% raw %}
 var app = angular.module('app', []);
 
-app.controller('FilterController', ['$scope', FilterController]);
-
-function FilterController($scope) {
+app.controller('FilterController', ['$scope', function ($scope) {
 
   $scope.name = 'Angular';
   $scope.PI = Math.PI;
@@ -13,5 +11,6 @@ function FilterController($scope) {
   $scope.weekday = 'Monday';
   $scope.pageCode = 'page-123';
   
-}
+}]);
+
 {% endraw %}
