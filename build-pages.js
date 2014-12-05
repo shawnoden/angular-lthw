@@ -18,8 +18,8 @@ var pages = [
   {id:'filtering-arrays', title:'Filtering Arrays'},
   {id:'custom-filters', title:'Custom Filters'},
   {id:'more-custom-filters', title:'More Custom Filters'},
-  {id:'introducing-loops', title:'Introducing Loops'},
-  {id:'more-loops', title:'More Loops'}
+  {id:'introducing-repeaters', title:'Introducing Repeaters'},
+  {id:'more-repeaters', title:'More Repeaters'}
 ];
 
 var makePage = function(i, page) {

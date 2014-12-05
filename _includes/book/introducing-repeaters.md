@@ -3,13 +3,13 @@
 Create a new file `app.js` with the following content:
 
 {% highlight javascript %}
-{% include code/introducing-loops/app.js %}
+{% include code/introducing-repeaters/app.js %}
 {% endhighlight %}
 
 Create a new file `index.html` with the following content:
 
 {% highlight html %}
-{% include code/introducing-loops/index.html %}
+{% include code/introducing-repeaters/index.html %}
 {% endhighlight %}
 
 ## What You Should See

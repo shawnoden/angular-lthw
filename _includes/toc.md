@@ -15,5 +15,5 @@
 * [Exercise 14: Filtering Arrays](ex14.html)
 * [Exercise 15: Custom Filters](ex15.html)
 * [Exercise 16: More Custom Filters](ex16.html)
-* [Exercise 17: Introducing Loops](ex17.html)
-* [Exercise 18: More Loops](ex18.html)
+* [Exercise 17: Introducing Repeaters](ex17.html)
+* [Exercise 18: More Repeaters](ex18.html)

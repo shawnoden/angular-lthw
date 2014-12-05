@@ -3,13 +3,13 @@
 Create a new file `app.js` with the following content:
 
 {% highlight javascript %}
-{% include code/more-loops/app.js %}
+{% include code/more-repeaters/app.js %}
 {% endhighlight %}
 
 Create a new file `index.html` with the following content:
 
 {% highlight html %}
-{% include code/more-loops/index.html %}
+{% include code/more-repeaters/index.html %}
 {% endhighlight %}
 
 ## What You Should See
@@ -42,11 +42,10 @@ A Hard Day's Night  1964  * Comedy * Musical
 
 ## What's Going On
 
-In this exercise we show how to use loops within loops.
+In this exercise we use an inline repeater array plus repeaters within repeaters.
 
-In the **10 Times Table** we see how to loop through a hard-coded array of
-values, and we also see how to implement a loop within a loop. The `tr` is
-repeated 10 times, and within each `tr` the `td` is repeated 10 times.
+In the **10 Times Table** the `tr` is repeated 10 times, and within each row
+the `td` is repeated 10 times.
 
 In the **Movies** table we see a list of movies where each movie has multiple
 genres.
