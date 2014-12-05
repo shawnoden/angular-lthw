@@ -33,9 +33,11 @@ Our `leet` function however requires no arguments.
 
 ## Study Drills
 
-1. Write a filter named `wordsort` that accepts a sentence and returns a new
+1. Write a filter named `capitalize` that captialises the first letter of the
+provided text.
+2. Write a filter named `wordSort` that accepts a sentence and returns a new
 sentence with the words in alphabetical order. This should be a simple filter
 that does not consider punctuation.
-2. Write a filter named `cleanwords` that accepts a sentence and converts
+3. Write a filter named `cleanWords` that accepts a sentence and converts
 the following words: idiot=>genius, stupid=>friendly, JavaScript=>Zombies. 
 
