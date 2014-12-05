@@ -32,7 +32,7 @@ MON
 
 ## What's Going On
 
-A filter is used to formats an expression before displaying it to the user. 
+A filter is used to format an expression before displaying it to the user. 
 
 You can apply a filter by using the pipe `|` character.
 

@@ -15,7 +15,9 @@ var pages = [
   {id:'services-with-dependencies', title:'Services With Dependencies'},
   {id:'introducing-filters', title:'Introducing Filters'},
   {id:'using-filters-inside-controllers', title:'Using Filters Inside Controllers'},
-  {id:'filtering-arrays', title:'Filtering Arrays'}
+  {id:'filtering-arrays', title:'Filtering Arrays'},
+  {id:'custom-filters', title:'Custom Filters'},
+  {id:'more-custom-filters', title:'More Custom Filters'}
 ];
 
 var makePage = function(i, page) {

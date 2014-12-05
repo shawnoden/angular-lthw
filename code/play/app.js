@@ -1,30 +1,16 @@
-var app = angular.module('app',[]);
-
-app.factory('serviceA', ['serviceB', function(){
-
-  return {};
-  
-}]);
-
-app.factory('serviceB', ['serviceC', function(){
-
-  return {};
-  
-}]);
-
-app.factory('serviceC', ['serviceA', function(){
-
-  return {};
-  
-}]);
-
-app.controller('DependencyController', ['$scope', 'serviceA',
-  function($scope, serviceA){
-  
-    $scope.getNames = function() {
-      return 'Hello';
+var app = angular.module('app',[])
+  .filter('leet', function(){
+    
+    return function heading(text) {
+      var s = text
+                .replace('a', '@')
+                .replace('e', '3')
+                .replace('i', '1')
+                .replace('o', '0');
+      return s;
     };
-  
-  }
-]);
+    
+  });
+
+
 

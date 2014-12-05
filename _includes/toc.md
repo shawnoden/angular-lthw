@@ -13,3 +13,5 @@
 * [Exercise 12: Introducing Filters](ex12.html)
 * [Exercise 13: Using Filters Inside Controllers](ex13.html)
 * [Exercise 14: Filtering Arrays](ex14.html)
+* [Exercise 15: Custom Filters](ex15.html)
+* [Exercise 16: More Custom Filters](ex16.html)
