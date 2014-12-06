@@ -18,3 +18,4 @@
 * [Exercise 17: Introducing Repeaters](ex17.html)
 * [Exercise 18: More Repeaters](ex18.html)
 * [Exercise 19: Introducing XHR](ex19.html)
+* [Exercise 20: Image Handling](ex20.html)

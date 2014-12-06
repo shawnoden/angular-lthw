@@ -20,7 +20,8 @@ var pages = [
   {id:'more-custom-filters', title:'More Custom Filters'},
   {id:'introducing-repeaters', title:'Introducing Repeaters'},
   {id:'more-repeaters', title:'More Repeaters'},
-  {id:'introducing-xhr', title:'Introducing XHR'}
+  {id:'introducing-xhr', title:'Introducing XHR'},
+  {id:'image-handling', title:'Image Handling'}
 ];
 
 var makePage = function(i, page) {

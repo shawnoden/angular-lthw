@@ -1,0 +1,23 @@
+<!doctype html>
+<html ng-app="app">
+<head>
+  <meta charset="utf-8">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.3/angular.min.js"></script>
+  <script src="app.js"></script>
+</head>
+<body>
+
+<div ng-controller="movieController">
+
+  <ul>
+    <li ng-repeat="movie in movies">
+      <img ng-src="{{ movie.thumbnail }}"><br>
+      <b>{{ movie.title }}</b> ({{ movie.year }})
+    </li>
+  </ul>
+
+</div>
+
+</body>
+</html>
+
